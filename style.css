@@ -146,29 +146,61 @@ h4 {
 }
 
 .fds-discovery figure {
-    flex-basis: 20%;
+    margin-top: 2%;
+    flex-basis: 25%;
     height: 100%;
 }
 
 .fds-discovery section {
     flex-basis: 50%;
-    font-size: 20px;
-    margin-top: 4%;
+    margin-top: 6%;
 }
 
-/* fds > trisection */
-.fds-discovery .trisection {
-    background-color: aqua;
+.fds-discovery footer {
+    flex-basis: 25%;    
+    margin-top: 6%;
+}
+
+/* life cycle, breeding, & habitat */
+.lcbh {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+} 
+
+.main {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.fds-discovery .trisection section {
-    margin-left: 10%;
-    margin-right: 10%;
-    flex-basis: 10%;
-}
-
-.fds-discovery .trisection figure {
+.main figure {
+    margin-top: 2%;
     flex-basis: 30%;
+    height: 100%;
 }
+
+.main section {
+    flex-basis: 40%;
+}
+
+/* finally, sources */
+.sources {
+    margin: -1%;
+    background-color: #969696;
+    color: white;
+
+}
+
+.sources h1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.sources ul {
+    display: flex;
+    flex-flow: column wrap;
+}
+
