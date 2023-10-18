@@ -1,8 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: .5%;
+}
+
 body {
     background-color: #E4E4E4;
+    font-family: 'Source Serif Pro';
+    font-weight: lighter;
     color: #777777;
 }
 
-.center {
+body time {
+    font-size: 20px;
+}
+
+/* extra classes */
+.img {
+    border: 5px solid #606060;
+    filter: drop-shadow(0px 0px 3px);
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+div {
+    margin: auto;
+    width: 40%;
+    height: 1px;
+    border: 1px solid;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+.superp {
+    text-indent: 1em;
+    font-size: 20px
+}
+
+/* main-title */
+.main-title {
+    margin-top: 1%;
     text-align: center;
+    font-size: 40px;
+}
+
+.main-title p {
+    font-size: .3em;
+    padding-left: 35%;
+}
+
+
+/* intro */
+.intro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+/* generaltext */
+.intro-text {
+    flex-basis: 35%;
+}
+
+.intro-text h4 {
+    padding-top: 2em;
+}
+
+/* images */
+.intro-images {
+    flex-basis: 20%;
+}
+
+.intro-images figure {
+    margin-bottom: 5%;
+}
+
+.intro-images figure:nth-child(1) {
+    width: 80%;
+}
+
+.intro-images figure:nth-child(2) {
+    width: 70%;
+}
+
+.intro-images figure:nth-child(3) {
+    width: 80%;
+}
+
+/* dinocard */
+.dinocard {
+    display: flex;
+    flex-flow: column;
+    flex-basis: 20%;
+    
+    background-color: #BFBFBF;
+    filter: drop-shadow(0px 1px 5px);
+}
+
+.dinocard figure img {
+    margin: 0;
+}
+
+.dinocard h2 {
+    color: white;
+    text-align: center;
+    letter-spacing: .2em;
+    font-weight: lighter;
+    font-size: 2em;
+}
+
+.dinocard ul {
+    background-color: #969696;
+    color: #E4E4E4;
+    font-size: 1.5em;
+    margin: 0;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+/* fds */
+.fds {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.fds-imagerow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.fds-imagerow figure {
+    flex-basis: 25%;
+    height: 100%;
+}
+
+.fds-discovery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.fds-discovery figure {
+    flex-basis: 20%;
+    height: 100%;
+}
+
+.fds-discovery section {
+    flex-basis: 50%;
+    font-size: 20px;
+    margin-top: 4%;
+}
+
+/* fds > trisection */
+.fds-discovery .trisection {
+    background-color: aqua;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.fds-discovery .trisection section {
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-basis: 10%;
+}
+
+.fds-discovery .trisection figure {
+    flex-basis: 30%;
 }
